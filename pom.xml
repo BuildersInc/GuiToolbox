@@ -87,7 +87,7 @@
         <repository>
             <id>github</id>
             <name>GitHub BuildersInc Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/BuildersInc/WoM_Player</url>
+            <url>https://maven.pkg.github.com/BuildersInc/GuiToolbox</url>
         </repository>
     </distributionManagement>
 </project>

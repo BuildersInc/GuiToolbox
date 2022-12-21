@@ -17,8 +17,7 @@ public class GuiHandler implements Listener {
 
     @EventHandler
     public void onClick(InventoryClickEvent event) {
-        resultKey = event.getWhoClicked().getName();
-        handler.handleInput(resultKey);
+        handler.handleEvent(event);
     }
 
     public String getResultKey() {

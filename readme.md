@@ -1,5 +1,7 @@
 # GuiToolbox
 
+[![MavenDeploy](https://github.com/BuildersInc/GuiToolbox/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/BuildersInc/GuiToolbox/actions/workflows/maven-publish.yml)
+
 This is a Tool in order to create a Minecraft Chest GUI.
 
 

@@ -8,8 +8,10 @@ import org.bukkit.event.Listener;
 public class GuiHandler implements Listener {
 
     private String resultKey;
+    private EventInputHandler handler;
 
-    public GuiHandler(Plugin plugin) {
+    public GuiHandler(Plugin plugin, EventInputHandler eventHandler) {
+        this.handler = eventHandler;
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
     }
 

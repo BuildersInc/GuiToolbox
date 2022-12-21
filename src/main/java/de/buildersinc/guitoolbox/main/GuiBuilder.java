@@ -1,6 +1,7 @@
 package de.buildersinc.guitoolbox.main;
 
 
+import de.buildersinc.guitoolbox.events.EventInputHandler;
 import de.buildersinc.guitoolbox.events.GuiHandler;
 import de.buildersinc.guitoolbox.toolBox.GuiToolbox;
 import de.buildersinc.guitoolbox.toolBox.ItemToolbox;
@@ -14,9 +15,9 @@ public class GuiBuilder {
     private final GuiToolbox guiToolbox;
     private final GuiHandler handler;
 
-    public GuiBuilder(Plugin p) {
+    public GuiBuilder(Plugin p, EventInputHandler handler) {
         this.plugin = p;
-        this.handler = new GuiHandler(p);
+        this.handler = new GuiHandler(p, handler);
         this.itemToolbox = new ItemToolbox(this);
         this.guiToolbox = new GuiToolbox(this);
 //        startTask();

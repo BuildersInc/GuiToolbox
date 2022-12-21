@@ -6,7 +6,7 @@
 
     <groupId>de.buildersinc</groupId>
     <artifactId>guitoolbox</artifactId>
-    <version>0.1.5</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>GuiToolbox</name>

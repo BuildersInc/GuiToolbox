@@ -19,6 +19,7 @@ public class GuiBuilder {
         this.handler = new GuiHandler(p);
         this.itemToolbox = new ItemToolbox(this);
         this.guiToolbox = new GuiToolbox(this);
+        startTask();
     }
 
     private void startTask() {

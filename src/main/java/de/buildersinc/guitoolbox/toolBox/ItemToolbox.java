@@ -1,6 +1,6 @@
-package de.builderinc.guitoolbox.toolBox;
+package de.buildersinc.guitoolbox.toolBox;
 
-import de.builderinc.guitoolbox.main.GuiBuilder;
+import de.buildersinc.guitoolbox.main.GuiBuilder;
 import dev.dbassett.skullcreator.SkullCreator;
 import org.bukkit.plugin.Plugin;
 import net.kyori.adventure.text.Component;

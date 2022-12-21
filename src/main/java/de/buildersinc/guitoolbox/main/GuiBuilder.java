@@ -1,9 +1,9 @@
-package de.builderinc.guitoolbox.main;
+package de.buildersinc.guitoolbox.main;
 
 
-import de.builderinc.guitoolbox.events.GuiHandler;
-import de.builderinc.guitoolbox.toolBox.GuiToolbox;
-import de.builderinc.guitoolbox.toolBox.ItemToolbox;
+import de.buildersinc.guitoolbox.events.GuiHandler;
+import de.buildersinc.guitoolbox.toolBox.GuiToolbox;
+import de.buildersinc.guitoolbox.toolBox.ItemToolbox;
 import org.bukkit.plugin.Plugin;
 
 

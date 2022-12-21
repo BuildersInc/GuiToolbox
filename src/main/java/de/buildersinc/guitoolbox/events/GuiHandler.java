@@ -1,4 +1,4 @@
-package de.builderinc.guitoolbox.events;
+package de.buildersinc.guitoolbox.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.inventory.InventoryClickEvent;

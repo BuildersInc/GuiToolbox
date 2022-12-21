@@ -1,6 +1,6 @@
-package de.builderinc.guitoolbox.toolBox;
+package de.buildersinc.guitoolbox.toolBox;
 
-import de.builderinc.guitoolbox.main.GuiBuilder;
+import de.buildersinc.guitoolbox.main.GuiBuilder;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
